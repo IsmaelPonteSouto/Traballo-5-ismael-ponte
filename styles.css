@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('bg.png'); /* Reemplaza 'ruta/a/tu/imagen.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(219, 168, 101);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.container h1{
+    display: block;
+}
+
+header {
+    background: rgba(7, 95, 47, 0.99);
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    color: rgb(30, 189, 210);
+    text-align: center;
+    width:100%;
+    border-radius: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(231, 215, 215);
+}
+
+footer{
+    background-color: hsl(219, 83%, 9%);
+    color:darkseagreen;
+    column-count: 3;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+footer div{
+    margin: 40px;
+}
+
+.info-cont{
+    background-color: bisque;
+    color: rgb(94, 255, 0);
+    margin: 10px;
+    padding: 25px;
+    font-size: 1.25em;
+    border-radius: 60px;
+    display: flex;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.spacer{
+    height: 150px;
+}
+
+
+.products-container {
+    display: flex;
+    justify-content: space-around; /* Ajusta el espaciado horizontal */
+    flex-wrap: wrap; /* Para que los elementos se envuelvan en líneas */
+    gap: 20px; /* Espaciado entre los elementos */
+    background-color: white;
+    color: black;
+}
+
+.product {
+    border: 10px inherit #bb0808;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.product h2 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.product p, .product img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.product img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.kkk{
+    background-color: rgba(34, 34, 133, .7);
+    padding: 50px;
+    margin: 60px;
+}
+.resource{
+    text-align: center;
+    font-size: 2em;
+    background-color: rgb(184, 27, 27);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    
+}
